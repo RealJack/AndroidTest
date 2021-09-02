@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/app/src/main/res/layout/activity_test32.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.221875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/drawable/ic_launcher_background.xml" value="0.221875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test32.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test33.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test34.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_button.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_edit_text.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_id.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_image_view.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_layout2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_string_text.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_text_view.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_view_group.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_3/src/main/res/layout/activity_test3_visibility.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/drawable/ic_launcher_background.xml" value="0.221875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/drawable/sample_background.xml" value="0.221875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_main.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test24.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test42.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_frame_layout.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_frame_layout2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_linear_layout.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_linear_layout2.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_linear_layout3.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/AndroidTest/part2_4/src/main/res/layout/activity_test4_relative_layout.xml" value="0.20572916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

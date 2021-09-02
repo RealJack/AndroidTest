@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3_EditText"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText :: 기본"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#FEF5E7"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText :: lines 설정"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#FDEBD0"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText :: maxLines 설정"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#FAD7A0"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText :: inputType(phone) 설정"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#F8C471"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="전화번호 입력"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EditText :: gravity(center) 설정"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#F39C12"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+</LinearLayout>

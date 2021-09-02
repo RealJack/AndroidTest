@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3_Button"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기본 버튼"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:textSize="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 :: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:checked="false"/>
+
+    <TextView
+        android:id="@+id/radio_return"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#566573"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:text="라디오 버튼 반한값 : "/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라디오 1"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라디오 2"/>
+    </RadioGroup>
+</LinearLayout>

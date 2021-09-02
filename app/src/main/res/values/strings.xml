@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+    <string name="message">
+        안녕하세요.
+        테스트입니다.
+        이게 맞나??
+    </string>
+</resources>

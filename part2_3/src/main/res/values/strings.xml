@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Part2_3</string>
+
+    <string name="test_message">
+        안녕하세요.
+        테스트입니다.
+        이게 맞나??
+    </string>
+
+    <string name="test3_text_view1">
+        문자열 리소스\n개행 \\n\n위치 res/values/strings.xml
+    </string>
+
+    <string name="test3_text_view2">
+        한국인을 미치게 만드는 방법은 두 가지 있는데 하나는 말을 끝까지 하지 않는 것이고 다른 하나는
+    </string>
+
+    <string name="long_text">
+        야 뽀로로다 노는게 제일 좋아. 친구들 모여라. 언제나 즐거워 개구쟁이 뽀로로. 눈덮인 숲속마을 꼬마펭귄 나가신다.
+        언제나 즐거워 오늘은 또 무슨 일이 생길까. 뽀로로를 불러봐요. 뽀롱뽀롱 뽀로로 뽀롱뽀롱 뽀로로. 뽀롱뽀롱 뽀롱뽀롱 뽀롱뽀롱 뽀롱 뽀로로.
+        노는게 제일 좋아 친구들 모여라. 언제나 즐거워 뽀롱뽀롱 뽀롱뽀롱 뽀로로.
+    </string>
+</resources>

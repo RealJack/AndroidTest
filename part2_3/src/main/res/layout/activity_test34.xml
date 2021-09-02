@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3_4Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="가나다라 http://google.com 마바사 a@a.com 아자차카타 02-1234-5678"
+        android:autoLink="web|email|phone"
+        android:textColorLink="#ed193a"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:text="@string/long_text"
+        android:ellipsize="end"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/test3_4TypeFace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Font"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:adjustViewBounds="true"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="전화번호 입력"
+        android:inputType="phone"
+        android:layout_marginTop="16dp"/>
+
+    <CheckBox
+        android:id="@+id/test3_4CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="is unChecked"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

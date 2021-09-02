@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3_Visibility"
+    android:orientation="vertical">
+
+    <!--visibility => gone: 공간 확보 안함, invisible: 노출되지 않으나 공간 확보-->
+
+    <Button
+        android:id="@+id/btn_visible_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button :: gone"
+        android:onClick="onClickButton1"
+        android:textFontWeight="900"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/btn_visible_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visibility test :: gone"
+        android:background="#ed193a"
+        android:textColor="#ffffff"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btn_visible_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button :: invisible"
+        android:onClick="onClickButton2"
+        android:layout_marginTop="10dp"
+        android:textFontWeight="900"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/btn_visible_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visibility test :: invisible"
+        android:background="#FFC300"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/btn_visible_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button :: reset"
+        android:onClick="onClickButton3"
+        android:layout_marginTop="10dp"
+        android:textFontWeight="900"
+        android:textSize="25dp"/>
+
+</LinearLayout>

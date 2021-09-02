@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test3_TextView"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="string resource"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="typeface"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textStyle"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textColor"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textSize"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="autoLink"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/btn_textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="maxLines :: 2Line"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC300"
+            android:text="@string/test3_text_view1"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/text_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#45B39D"
+                android:text="typeFace :: 노멀"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/text_textView3_fontFace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#73C6B6"
+                android:text="typeFace :: KoPub Batang Bold.ttf"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/text_textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FEF9E7"
+                android:text="textStyle :: normal"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCF3CF"
+                android:text="textStyle :: bold"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F9E79F"
+                android:text="textStyle :: italic"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textStyle="italic"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFC300"
+            android:text="textColor :: #ED193A"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textColor="#ED193A"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/text_textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EAF2F8"
+                android:text="textSize :: 5dp"
+                android:textSize="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#D4E6F1"
+                android:text="textSize :: 10dp"
+                android:textSize="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#A9CCE3"
+                android:text="textSize :: 15dp"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7FB3D5"
+                android:text="textSize :: 20dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#5499C7"
+                android:text="textSize :: 25dp"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2980B9"
+                android:text="textSize :: 30dp"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#273746"
+            android:text="home : http://www.imstars.or.kr\ne-mail: jetga92@itnc.co.kr\nphone: 010-5696-7333"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:autoLink="web|email|phone"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/text_textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E74C3C"
+                android:text="@string/test3_text_view2"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:maxLines="2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EC7063"
+                android:text="@string/test3_text_view2"
+                android:textSize="20dp"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:maxLines="2"
+                android:ellipsize="end"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

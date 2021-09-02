@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Test4_2Activity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:background="@drawable/sample_background"
+        android:maxWidth="100dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="고영희"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/icon2"/>
+
+    <TextView
+        android:id="@+id/content2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="지금 뭐하냐? 나한테 뭐라고 했냐? 배고프다. 올 때 치킨 사와라."
+        android:layout_below="@id/name2"
+        android:layout_alignLeft="@id/name2"/>
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21.9.2"
+        android:layout_alignBaseline="@id/name2"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
